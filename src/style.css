@@ -3,12 +3,10 @@
   --secondary-color: #43377a;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
-body {
-  padding: 60px;
-}
 .container {
   font-family: "Manrope", sans-serif;
   text-align: center;
+  padding: 30px;
 }
 h1 {
   color: var(--secondary-color);
