@@ -27,8 +27,9 @@ h2 {
 .sub-heading {
   text-align: start;
 }
-.homepage-text {
-  font-size: 24px;
+.homepage-text,
+.about-text {
+  font-size: 20px;
   color: var(--paragraph-color);
 }
 .image {
