@@ -1,32 +1,47 @@
 :root {
   --primary-color: #fc709b;
   --secondary-color: #43377a;
+  --paragraph-color: #272044;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 .container {
   font-family: "Manrope", sans-serif;
-  text-align: center;
   padding: 30px;
 }
 h1 {
   color: var(--secondary-color);
   font-size: 48px;
   margin: 0%;
+  text-align: center;
 }
 h2 {
   color: var(--primary-color);
   margin: 0%;
+  text-align: center;
 }
 .lrg-heading {
   font-size: 96px;
   font-weight: 900;
+  text-align: center;
+}
+.sub-heading {
+  text-align: start;
+}
+.homepage-text {
+  font-size: 24px;
+  color: var(--paragraph-color);
+}
+.image {
+  box-shadow: var(--box-shadow);
 }
 .links {
   display: flex;
   margin-top: 40px;
   justify-content: center;
 }
-.contact-link {
+.contact-link,
+.sewing-link,
+.dog-link {
   margin: 20px;
   padding: 20px 15px;
   color: white;
@@ -35,7 +50,8 @@ h2 {
   border-radius: 4px;
   box-shadow: var(--box-shadow);
 }
-.about-link {
+.about-link,
+.weather-link {
   margin: 20px;
   padding: 20px 15px;
   color: var(--secondary-color);
@@ -64,4 +80,6 @@ h2 {
 .email-link {
   font-size: 28px;
   text-decoration: none;
+  display: flex;
+  justify-content: center;
 }
