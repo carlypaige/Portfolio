@@ -84,3 +84,12 @@ h2 {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 600px) {
+  .lrg-heading {
+    font-size: 36px;
+  }
+  .homepage-text,
+  .about-text {
+    font-size: 17px;
+  }
+}
